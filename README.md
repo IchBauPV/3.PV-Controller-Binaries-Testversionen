@@ -11,7 +11,7 @@ Aktueller Funktionsumfang:
 2. Anzeige von  Wirkverbrauch und Einspeisung (aktuell,heute, gestern) und Gesamtverbrauch
 3. Unterstützung für Einrichtungszähler durch 3-Step Lastreduzierungs-Algorithmus
 4. Automatischer Accesspoint zum Anmelden im Heimnetz, wenn hinterlegtes Netz nicht gefunden
-5. Datum vom Netz (NTP)
+5. Datum und Zeit vom Netz (NTP)
 6. Sommer-Winterzeitumstellung (hoffentlich)
 7. Data Logging für Wirkverbrauch und Einspeisung und Zählerstand stündlich mittels SPIFFS (Flash)
 8. Konfigurationsmenü zum Einstellen des Regelverhaltens (bleibt erhalten durch EEPROM)

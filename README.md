@@ -21,7 +21,7 @@ V 0.9 Beta
 16. Fehleralarm beim IR-Datenempfang über LED und Buzzer
 17. WLAN Verbindungsverlust Benachrichtigung durch Piepton alle 10 Minuten; automatisches Reconnect
 18. Automatisches Einwählen ins Netz bei Neustart
-19. "Notlaug" nach Neustart ohne Netzverbindung und Uhrzeit nach 1 Minute ohne Verbindungserfolg   
+19. "Notlauf" nach Neustart ohne Netzverbindung und Uhrzeit nach 1 Minute ohne Verbindungserfolg, um Steuerung zu gewährleisten   
 
 #### Historie:  
 3.3.23: 0.9 Beta Release mit neuem SML Parser zum Test für diverse Zähler, 2 Widerstände gemäß Schaltplan nötig (oder richtiger Lesekopf), alles andere optional  

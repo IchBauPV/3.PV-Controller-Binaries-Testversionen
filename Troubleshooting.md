@@ -15,5 +15,5 @@ Möchte man, dass der ESP wieder mit Accesspoint startet, muss man das verbunden
 Wenn gar nichts geht, mit seriellem Monitor Meldungen anschauen (115.200).  
 Ggf. einmal die 160 Mhz Version testen.
 
-## 4. Flashen klappt, WLAN verbunden, Verbrauchseite kann aufgerufen werden, aber nur, wenn mit PC verbunden ##
+## 4. Flashen klappt, WLAN verbunden, Seite Stromverbrauch kann aufgerufen werden, aber nur, wenn mit PC verbunden ##
 Die Stromversorgung ist wahrscheinlich zu schwach. Der ESP verbraucht mit WLAN bis zu 700mA Peak, s. Punkt 1 

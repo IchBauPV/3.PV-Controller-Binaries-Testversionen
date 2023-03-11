@@ -25,5 +25,5 @@ V 0.9 Beta
 
 #### Historie:  
 3.3.23: 0.9 Beta Release mit neuem SML Parser zum Test für diverse Zähler, 2 Widerstände gemäß Schaltplan nötig (oder richtiger Lesekopf), alles andere optional  
-3.3.23: 0.9_Pullup Beta Release wie vor, aber mit internem 10k-Pullup aktiviert, so dass  Fototransistor direkt an PIN 16 und GND angeschlossen werden kann
-11.3.23_ 0.9 Betas mit 160 Mhz Einstellung für ältere ESPs hochgeladen. Standard ist derzeit 240 Mhz (in den Vorgängerversionen)
+3.3.23: 0.9_Pullup Beta Release wie vor, aber mit internem 10k-Pullup aktiviert, so dass  Fototransistor direkt an PIN 16 und GND angeschlossen werden kann  
+11.3.23: 0.9 Betas mit 160 Mhz Einstellung für ältere ESPs hochgeladen. Standard ist derzeit 240 Mhz (in den Vorgängerversionen)

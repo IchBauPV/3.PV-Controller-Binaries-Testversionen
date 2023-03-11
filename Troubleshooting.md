@@ -2,7 +2,7 @@ Hier führe ich unsortiert nach Eingang einige Möglichkeiten zur Fehlerbehebung
 
 ## 1. Flashen klappt nicht ##
 Richtige ESP Version?  
-Sehr gute USB Kabel sind zwingend erforderlich und natürlich nur solche mit Datenleitungen. Ebenso mindestens 1A Stromversorgung.  
+Der ESP verbraucht mit WLAN bis zu 700mA Peak. Sehr gute USB Kabel sind zwingend erforderlich und natürlich nur solche mit Datenleitungen. Ebenso mindestens 1A Stromversorgung.  
 Ggf. 470u Elko anlöten zur Stabilisierung (ist aber normal nicht erforderlich).
 
 ## 2. Flashen klappt, aber Rebootmeldung im Seriellen Monitor: ##
@@ -16,4 +16,4 @@ Wenn gar nichts geht, mit seriellem Monitor Meldungen anschauen (115.200).
 Ggf. einmal die 160 Mhz Version testen.
 
 ## 4. Flashen klappt, WLAN verbunden, Seite Stromverbrauch kann aufgerufen werden, aber nur, wenn mit PC verbunden ##
-Die Stromversorgung ist wahrscheinlich zu schwach. Der ESP verbraucht mit WLAN bis zu 700mA Peak, s. Punkt 1 
+Die Stromversorgung ist wahrscheinlich zu schwach. S. Punkt 1 

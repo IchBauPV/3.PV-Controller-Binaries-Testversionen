@@ -8,6 +8,7 @@ Ggf. 470u Elko anlöten zur Stabilisierung (ist aber normal nicht erforderlich).
 ## 2. Flashen klappt, aber Rebootmeldung im Seriellen Monitor: ##
 Einmal die 160 Mhz Version testen.  
 Vielleicht habt Ihr mit einer anderen Installation zuvor den Bootloader "verbogen"? ESPRESSIF gibt an: At a 0x10000 (64 KB) offset in the flash is the app labelled “factory”. The bootloader will run this app by default. In dem Fall müsste man wohl einmal mit einer Entwicklungsumgebung eine Datei "normal" flashen, um die Standard Partitionierung wieder herzustellen. Bei mir ist das: Default 4MB with spiffs (1.2MB APP/1.5 MB SPIFFS)  
+Möglicherweise hilft Euch dieses [Video](https://www.youtube.com/watch?v=3oEvXhgHZHo), wie man ein Factory Reset macht und einen Bootloader neu flasht (habe ich aber nicht ausprobiert) 
 Sonst derzeit keine Ideen, woran das liegt.
 
 ## 3. Flashen klappt, LED blitzt, aber kein Accesspoint ##

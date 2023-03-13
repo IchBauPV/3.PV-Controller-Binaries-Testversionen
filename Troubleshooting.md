@@ -6,7 +6,9 @@ Der ESP verbraucht mit WLAN bis zu 700mA Peak. Ein sehr gutes USB Kabel ist zwin
 Ggf. 470u Elko anlöten zur Stabilisierung (ist aber normal nicht erforderlich).
 
 ## 2. Flashen klappt, aber Rebootmeldung im Seriellen Monitor: ##
-Einmal die 160 Mhz Version testen. Sonst derzeit keine Ideen, woran das liegt.
+Einmal die 160 Mhz Version testen.  
+Vielleicht habt Ihr mit einer anderen Installation zuvor den Bootloader "verbogen"? ESPRESSIF gibt an: At a 0x10000 (64 KB) offset in the flash is the app labelled “factory”. The bootloader will run this app by default. In dem Fall müsste man wohl einmal mit einer Entwicklungsumgebung eine Datei "normal" flashen, um die Standard Partitionierung wieder herzustellen. Bei mir ist das: Default 4MB with spiffs (1.2MB APP/1.5 MB SPIFFS)  
+Sonst derzeit keine Ideen, woran das liegt.
 
 ## 3. Flashen klappt, LED blitzt, aber kein Accesspoint ##
 Wenn der ESP (irgendwann einmal zuvor) mit dem Netz verbunden war, verbindet er sich immer wieder, solange er das WLAN findet. Dann muss er auch im [Router](https://github.com/IchBauPV/1.Infos-zu-Beginn/blob/main/Einstellung-Fritzbox.md) 

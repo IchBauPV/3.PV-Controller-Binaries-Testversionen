@@ -1,6 +1,6 @@
 # Steuerung-Binary
 Hier sind die Binaries der Steuerung für den ESP32 abgelegt. Standardversion ist für ESP32 Wroom, 4 MB, 30 PIN, 240 Mhz.  
-Das Flashen kann mit den [ESP32 Flash Tool](https://www.espressif.com/en/support/download/other-tools?keys=&field_type_tid%5B%5D=13) erfolgen.
+Das Flashen kann mit den [ESP32 Flash Tool](https://www.espressif.com/en/support/download/other-tools?keys=&field_type_tid%5B%5D=13) erfolgen, alternativ kann man den [ESPHome-Flasher](https://github.com/esphome/esphome-flasher/releases/download/1.4.0/ESPHome-Flasher-1.4.0-Windows-x64.exe) verwenden.
 
 #### Funktionsumfang:
 V 0.9 Beta

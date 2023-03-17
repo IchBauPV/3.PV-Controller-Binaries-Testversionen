@@ -3,7 +3,8 @@ Hier führe ich unsortiert nach Eingang einige Möglichkeiten zur Fehlerbehebung
 ## 1. Flashen klappt nicht ##
 Richtige ESP Version?  
 Der ESP verbraucht mit WLAN bis zu 700mA Peak. Ein sehr gutes USB Kabel ist zwingend erforderlich und natürlich nur solche mit Datenleitungen. Ebenso mindestens 1A Stromversorgung.  
-Ggf. 470u Elko anlöten zur Stabilisierung (ist aber normal nicht erforderlich).
+Ggf. 470u Elko anlöten zur Stabilisierung (ist aber normal nicht erforderlich).  
+Alternativ kann man den [ESPHome-Flasher](https://github.com/esphome/esphome-flasher/releases/download/1.4.0/ESPHome-Flasher-1.4.0-Windows-x64.exe) verwenden, der vorher das Flash komplett löscht und auch einen Seriellen Monitor eingebaut hat. Hiermit hatten manche Erfolg, bei denen es mit dem Hersteller-Tool nicht geklappt hatte.   
 
 ## 2. Flashen klappt, aber Rebootmeldung im Seriellen Monitor: ##
 Einmal die 160 Mhz Version testen.  

@@ -2,7 +2,8 @@
 Hier sind die Binaries der Steuerung für den ESP32 abgelegt. Standardversion ist für ESP32 Wroom, 4 MB, 30 PIN, 240 Mhz.  
 Das Flashen kann mit den [ESP32 Flash Tool](https://www.espressif.com/en/support/download/other-tools?keys=&field_type_tid%5B%5D=13) erfolgen, alternativ kann man den [ESPHome-Flasher](https://github.com/esphome/esphome-flasher/releases/download/1.4.0/ESPHome-Flasher-1.4.0-Windows-x64.exe) verwenden.
 
-#### Funktionsumfang:
+<details>
+<summary>Funktionsumfang:</summary>
 V 0.9 Beta
 1. SML-Parser integriert für alle Einheitenzähler, die den Standard unterstützen (über IR-Schnittstelle)
 2. Unterstützung für Einrichtungszähler
@@ -22,11 +23,12 @@ V 0.9 Beta
 17. WLAN Verbindungsverlust Benachrichtigung durch Piepton alle 10 Minuten; automatisches Reconnect
 18. Automatisches Einwählen ins Netz bei Neustart
 19. "Notlauf" nach Neustart ohne Netzverbindung und Uhrzeit nach 1 Minute ohne Verbindungserfolg, um Steuerung zu gewährleisten   
-
+</details>
+  
 #### Historie:  
 19.3.23: 0.9.3 Auzeige der eingespeisten Gesamtleistung (2.8.0) vom Zweirichtungszähler im Seriellen Monitor  
 18.3.23: 0.9.2 2 Richtungszähler unterstützt, Baudraten Zähler unterstützt => Neustart erforderlich  
 11.3.23: 0.9.1 Version mit 160MHz und Unterstützung für Zweirichtungszähler, 1000 Byte SML Datensätze  
 11.3.23: 0.9 Betas mit 160 Mhz Einstellung für ältere ESPs hochgeladen. Standard ist derzeit 240 Mhz (in den Vorgängerversionen)   
-3.3.23: 0.9 Beta Release mit neuem SML Parser zum Test für diverse Zähler, 2 Widerstände gemäß Schaltplan nötig (oder richtiger Lesekopf), alles andere optional 
+3.3.23: 0.9 Beta Release mit neuem SML Parser zum Test für diverse Zähler, 2 Widerstände gemäß Schaltplan nötig (oder richtiger Lesekopf), alles andere optional  
 3.3.23: 0.9_Pullup Beta Release wie vor, aber mit internem 10k-Pullup aktiviert, so dass Fototransistor direkt an PIN 16 und GND angeschlossen werden kann

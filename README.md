@@ -31,6 +31,7 @@ Das Flashen kann mit den [ESP32 Flash Tool](https://www.espressif.com/en/support
 </details>
   
 #### Historie:  
+23.3.23: 0.9.4 Fix: Pin 15 auf High, damit RS485 Board sendet
 19.3.23: 0.9.3 Auzeige der eingespeisten Gesamtleistung (2.8.0) vom Zweirichtungszähler im Seriellen Monitor  
 18.3.23: 0.9.2 2 Richtungszähler unterstützt, Baudraten Zähler unterstützt => Neustart erforderlich  
 11.3.23: 0.9.1 Version mit 160MHz und Unterstützung für Zweirichtungszähler, 1000 Byte SML Datensätze  

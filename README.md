@@ -31,7 +31,7 @@ Das Flashen kann mit den [ESP32 Flash Tool](https://www.espressif.com/en/support
 </details>
   
 #### Historie:  
-13.4.23  1.0 Anzeige der Versionsnummer, Manueller Festwert für Wechselrichterleistung zum Testen und Laboraufbau oder ungeregelte Nachteinspeisung
+13.4.23  1.0 Anzeige der Versionsnummer, Manueller Festwert für Wechselrichterleistung zum Testen und Laboraufbau oder ungeregelte Nachteinspeisung  
 23.3.23: 0.9.4 Fix: Pin 15 auf High, damit RS485 Board sendet, 2000 Byte Datensatz, 0 Watt für Inverterleistung möglich 
 19.3.23: 0.9.3 Auzeige der eingespeisten Gesamtleistung (2.8.0) vom Zweirichtungszähler im Seriellen Monitor  
 18.3.23: 0.9.2 2 Richtungszähler unterstützt, Baudraten Zähler unterstützt => Neustart erforderlich  
